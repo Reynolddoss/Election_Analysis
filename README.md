@@ -1,8 +1,9 @@
-## Election-Prediction-using-sentimental-analysis-Twitter
+# Election-Prediction-using-sentimental-analysis-Twitter
 Predicting the election results using the tweets with sentimental analysis and Bayes model.
 
 ## An Overview
-The following code is to get the tweets from the twitter(A social Network).These tweets are then passeed into the program which gives out the polarity-positive,Negative and neutral. This is used to generate a graph which clearly displays the outcome of the election results.
+Twitter a social website where people comment on several on going topics called tweets. If the tweets related to a particular topic a overall sentimental analysis can be drawn out, which would bring out the emotion of people of those who tweet.
+This can used to analyse sevaral conclusion.The Election analysis uses the same to drive out the emotion of people.
 
 ## Prerequisation
 1. Python 2.7
@@ -23,12 +24,24 @@ To create a Api click here [Twitter_Api](https://apps.twitter.com/)
 2. Each party files would individually access the tweeter account through the tweeter api for extracting tweets.
 
 ### Party files
-1. All the party file function the same way as mentioned bellow
-2. The twitter api authentication credentials obtained from the twitter account for the api are to be mentioned
-3. The OAuthHandler module will handle accessing the twitter account throught the api.
-4. Later a query is made with the parties name and the counts are mentioned.
-5. The tweets that matches the query are stored in an array.
-## Note 
+1. All the party files have the same functioning except the query that is made, the counts are also mentioned here i.e the number of tweets that need to be considered.
+2. Initially the main function is called which would, in turn, call the Twitter client finction.
+3.Here the credentials are taken and a connection to the api is made.
+4. The control is returned to the main function which would next call the next function which would retrive the tweets now.
+5. The matching tweets are put in an array and then passed into another function to get it cleaned.
+6 Using textblob library the tweets are cleaned and then checked for its sentiment.
+7. For cross checking we have put the positive, negative and neutral sentiment into different files geiint a count simultaneously. 
+8. Using these counts the individual percentage can be calculated. 
+9. This is then graphically visualized.
+
+
+
+## NAIVE BASIS CLASSIFIER
+
+1. This was used make a classification of the number of seats that a party would possibly get.
+2. The source of data for this was from different well-known news channels.
+3. A pie chart was also represented to show which party would get how many seats. 
+##Note 
 	*The sarcasm tweets are not delt accurately
 	*Emoji icon are not considered 
 	
