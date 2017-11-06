@@ -33,6 +33,9 @@ To create a Api click here [Twitter_Api](https://apps.twitter.com/)
 7. For cross checking we have put the positive, negative and neutral sentiment into different files geiint a count simultaneously. 
 8. Using these counts the individual percentage can be calculated. 
 9. This is then graphically visualized.
+10. The overall graph is shown below.
+
+![Alt text](a.png?raw=true "Sentimental analysis")
 
 
 
@@ -41,6 +44,9 @@ To create a Api click here [Twitter_Api](https://apps.twitter.com/)
 1. This was used make a classification of the number of seats that a party would possibly get.
 2. The source of data for this was from different well-known news channels.
 3. A pie chart was also represented to show which party would get how many seats. 
+
+
+
 ##Note 
 	*The sarcasm tweets are not delt accurately
 	*Emoji icon are not considered 
