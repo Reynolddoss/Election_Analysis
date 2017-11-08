@@ -39,12 +39,13 @@ To create a Api click here [Twitter_Api](https://apps.twitter.com/)
 
 
 
-## NAIVE BASIS CLASSIFIER
+## NAIVE BAYES CLASSIFIER
 
 1. This was used make a classification of the number of seats that a party would possibly get.
 2. The source of data for this was from different well-known news channels.
 3. A pie chart was also represented to show which party would get how many seats. 
 
+![Alt text](b.png?raw=true "SEATS")
 
 
 ##Note 
